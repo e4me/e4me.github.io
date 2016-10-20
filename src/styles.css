@@ -1,0 +1,41 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 2em;
+}
+a:hover {
+  color: #31414f;
+}
+
+.gray {
+  width: 90%;
+  height: 400px;
+  margin: 0 auto 50px;
+  opacity: 1;
+  border-radius: 5px;
+  background: #666;
+}
+
+#about.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 500ms ease;
+}
+#about.kill {
+  display: none;
+}
+#home {
+  position: relative;
+  /*transform: translateY(100px);*/
+}
+
+.blue {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  height: 400px;
+  background: blue;
+}
